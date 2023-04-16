@@ -47,3 +47,17 @@
     border-radius: 15px;
     overflow: hidden;
   }
+
+  @media (max-width: 767.98px) {
+    .Bg{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 650px;
+      height: 600px;
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+  }
